@@ -1,0 +1,86 @@
+# ==============================
+# Java compiled files
+# ==============================
+*.class
+
+# Java archive files
+*.jar
+*.war
+*.ear
+
+# ==============================
+# Build directories
+# ==============================
+target/
+out/
+build/
+
+# ==============================
+# Eclipse
+# ==============================
+.classpath
+.project
+.settings/
+.factorypath
+
+# Eclipse JDT generated files
+.apt_generated/
+.springBeans
+.sts4-cache/
+
+# ==============================
+# IntelliJ IDEA
+# ==============================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ==============================
+# VS Code
+# ==============================
+.vscode/
+
+# ==============================
+# NetBeans
+# ==============================
+/nbproject/private/
+/nbbuild/
+/dist/
+/.nb-gradle/
+
+# ==============================
+# Maven
+# ==============================
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ==============================
+# Gradle
+# ==============================
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ==============================
+# OS generated files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Temporary / backup files
+# ==============================
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+
+# ==============================
+# Environment / secrets
+# ==============================
+.env
+.env.*
+!.env.example
