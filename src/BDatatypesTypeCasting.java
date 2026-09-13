@@ -45,33 +45,33 @@ public class BDatatypesTypeCasting {
 		int l = 'A';
 		char m = 92;
 		
-		System.out.println(j);
-		System.out.println(k);
-		System.out.println(l);
-		System.out.println(m);
+		System.out.println("Char j :"+ j);
+		System.out.println("Int k : "+k);
+		System.out.println("int l : "+l);
+		System.out.println("char m : "+m);
 		
 //		String - non-primitive
 		String n = "Prashasti";
-		System.out.println(n);
+		System.out.println("String n : "+n);
 		
 //		type casting (widening - implicit type-casting - small dt to big dt - no data loss)
 		
 		byte s = 120;
 		short t = s;
-		System.out.println(t);
+		System.out.println("Byte converted to short, widening, implicit type casting : "+t);
 		
 //		type casting (narrowing - explicit type-casting - big dt to small dt - data loss)
 		short o = 128;
 		byte p = (byte)o;
-		System.out.println(p);
+		System.out.println("short converted to byte, narrowing, explicit type casting : "+p);
 		
 		short q = -129;
 		byte r = (byte)q;
-		System.out.println(4);
+		System.out.println("short converted to byte, narrowing, explicit type casting : "+q);
 		
 		short v = -122;
 		byte w = (byte)v;
-		System.out.println(w);
+		System.out.println("short converted to byte, narrowing, explicit type casting : "+w);
 		
 		
 

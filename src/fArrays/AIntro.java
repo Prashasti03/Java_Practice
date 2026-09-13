@@ -17,6 +17,16 @@ public class AIntro {
 		
 		System.out.println("=============================");
 		
+//		String array
+		String a[] = {"Java", "Python", "JavaScript"};
+		for(int i=0; i<a.length;i++) {
+			System.out.println(a[i]);
+		}
+		
+//		this proves that we can make array of classes as well
+		
+		System.out.println("=============================");
+		
 		
 //		print only even elements
 		int arr1[] = {33, 44, 22, 11, 55};
